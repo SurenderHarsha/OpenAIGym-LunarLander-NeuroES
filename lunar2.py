@@ -71,8 +71,8 @@ def crossover(po):
         k=random.randint(1,topp-1)
 
         j=random.randint(1,topp-1)
-        s=[x for x in top[k]]
-        b=[x for x in top[j]]
+        s=[x for x in top[k]]      # x can be multiplied with some noise.
+        b=[x for x in top[j]]      # x can be multiplied with some noise.
         r=[]
         sw=0
         for l in range(len(s)):
